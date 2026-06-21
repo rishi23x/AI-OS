@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "AI Business Copilot"
+version = "1.0.0"
+id = "artifacts/ai-business-copilot"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23357
+
+[services.development]
+run = "pnpm --filter @workspace/ai-business-copilot run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ai-business-copilot", "run", "build" ]
+publicDir = "artifacts/ai-business-copilot/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23357"
+BASE_PATH = "/"

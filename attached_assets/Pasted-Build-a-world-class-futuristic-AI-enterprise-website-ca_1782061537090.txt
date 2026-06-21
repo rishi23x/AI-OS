@@ -1,0 +1,219 @@
+Build a world-class futuristic AI enterprise website called **AI Business Copilot**. This should not look like a normal SaaS website — it should feel like a next-generation AI operating system interface that creates a "wow, what am I looking at?" reaction.
+
+The product:
+AI Business Copilot is an AI-powered business intelligence command center that helps mid-size companies understand operations, discover insights, detect problems, and make strategic decisions using AI.
+
+Design direction:
+Create an immersive premium experience inspired by:
+
+* Palantir Foundry (enterprise intelligence, serious, powerful)
+* OpenAI / Anthropic (minimal AI-native interface)
+* Apple Vision Pro (spatial glass UI, depth, futuristic feel)
+* Linear / Vercel (premium modern SaaS aesthetics)
+
+Overall feeling:
+Dark futuristic environment.
+Luxury technology aesthetic.
+A mix of liquid glass, holographic interfaces, spatial computing, and AI intelligence.
+
+The user should feel:
+"This is not a website. This feels like the future of business software."
+
+Visual system:
+
+* Deep black / charcoal background
+* Cyan, electric blue, violet AI glow accents
+* Liquid glassmorphism panels
+* Transparent layered cards
+* Soft reflections
+* Blur effects
+* Realistic depth
+* Floating UI elements
+* Smooth transitions everywhere
+
+Hero section:
+Create a full-screen cinematic hero.
+
+Include:
+
+* Massive headline:
+  "The Intelligence Layer For The Real World Economy"
+
+* Subheadline:
+  "AI that connects data, operations and decisions into one business intelligence system."
+
+Centerpiece:
+Create a large interactive 3D AI core/orb.
+
+The orb should feel like:
+
+* Liquid glass sphere
+* Holographic energy core
+* AI brain/reactor
+* Transparent material
+* Internal glowing particles
+* Light refraction
+* Floating around the user
+
+Use:
+Three.js
+React Three Fiber
+Drei
+MeshTransmissionMaterial
+Custom shaders if possible
+
+Animations:
+
+* Sphere slowly rotates
+* Energy flows inside
+* Particles orbit around it
+* Mouse movement affects the scene
+* Smooth camera movement
+* Cinematic reveal on page load
+
+Hero interactions:
+Add floating glass metric cards around the AI core:
+
+Examples:
+AI Operations Score: 94%
+Problems Detected: 12
+Efficiency Gain: +31%
+
+Cards should:
+
+* Float naturally
+* Have depth
+* Move slightly with cursor
+* Glow on hover
+
+Navigation:
+Create a premium floating navbar.
+
+Features:
+
+* Transparent glass background
+* Blur effect
+* Changes appearance while scrolling
+* Smooth mobile menu animation
+
+Sections:
+
+1. How It Works
+
+Create a futuristic pipeline:
+
+Data → AI Intelligence → Business Decisions
+
+Use:
+
+* Animated connection lines
+* Moving particles
+* Glass cards
+* Scroll reveal animations
+
+2. AI Capabilities
+
+Create 6 premium glass cards:
+
+Analytics Agent
+Operations Agent
+Strategy Agent
+Alert Agent
+Report Agent
+Automation Agent
+
+Each card:
+
+* Has mini 3D animation
+* Hover effects
+* Glow interaction
+
+3. AI Command Center Dashboard
+
+Create a realistic enterprise dashboard mockup.
+
+Include:
+
+* Sidebar navigation
+* KPI cards
+* Graphs
+* AI recommendations
+* Risk alerts
+* Performance indicators
+
+Make it feel like a real operating system, not a fake screenshot.
+
+4. Future Vision Section
+
+Show industries:
+
+Manufacturing
+Logistics
+Finance
+Healthcare
+Infrastructure
+
+Use futuristic cards with 3D icons/scenes.
+
+Animations:
+
+Use:
+
+* GSAP ScrollTrigger for cinematic scrolling
+* Framer Motion for component animations
+* Lenis for smooth scrolling
+
+Implement:
+
+* Scroll reveals
+* Parallax depth
+* Floating elements
+* Smooth page transitions
+* Hover micro-interactions
+
+Cursor:
+Create a custom futuristic cursor:
+
+* Small glowing dot
+* Expands on interactive elements
+* Smooth spring physics
+
+Technical requirements:
+
+Stack:
+React
+Vite
+Tailwind CSS
+Three.js
+React Three Fiber
+Drei
+Framer Motion
+GSAP
+Lenis
+Lucide Icons
+
+Code quality:
+
+* Production-ready structure
+* Clean components
+* Reusable UI system
+* Optimized 3D rendering
+* Responsive design
+* Mobile fallback for heavy 3D
+
+Create components:
+
+Navigation
+HeroSection
+AIOrb
+LiquidGlassCard
+FloatingMetricCard
+HowItWorksSection
+CapabilitiesSection
+DashboardSection
+FutureVisionSection
+CustomCursor
+SmoothScrollProvider
+ScrollReveal
+
+The final result should look like a website from 2035 — a combination of AI, spatial computing, enterprise intelligence, and futuristic software design.

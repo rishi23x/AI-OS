@@ -1,9 +1,11 @@
 import { Switch, Route, Router as WouterRouter } from "wouter";
 import { useEffect } from "react";
 import Lenis from "lenis";
+
 import Home from "@/pages/Home";
 import Dashboard from "@/pages/Dashboard";
 import NotFound from "@/pages/not-found";
+import CustomCursor from "@/components/CustomCursor";
 
 function Router() {
   return (
@@ -18,7 +20,7 @@ function Router() {
 function App() {
   useEffect(() => {
     document.documentElement.classList.add("dark");
-    
+
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -42,9 +44,13 @@ function App() {
   }, []);
 
   return (
-    <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
-      <Router />
-    </WouterRouter>
+    <>
+      <CustomCursor />
+
+      <WouterRouter base={import.meta.env.BASE_URL.replace(/\/$/, "")}>
+        <Router />
+      </WouterRouter>
+    </>
   );
 }
 

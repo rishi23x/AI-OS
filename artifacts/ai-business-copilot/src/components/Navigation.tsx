@@ -57,9 +57,12 @@ export default function Navigation() {
               ))}
             </div>
             <div className="h-6 w-px bg-white/20"></div>
-            <button className="text-sm font-semibold bg-white text-black px-5 py-2.5 rounded-full hover:bg-primary hover:text-white transition-colors glow-cyan">
-              Request Demo
-            </button>
+           <Link 
+ href="/dashboard"
+ className="text-sm font-semibold bg-white text-black px-5 py-2.5 rounded-full hover:bg-primary hover:text-white transition-colors glow-cyan"
+>
+ Open Dashboard
+</Link>
           </div>
 
           {/* Mobile Menu Toggle */}

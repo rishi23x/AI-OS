@@ -10,7 +10,6 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <div className="relative min-h-screen selection:bg-primary/30 selection:text-white">
-      <CustomCursor />
       <Navigation />
       
       <main>
